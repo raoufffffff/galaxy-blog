@@ -20,18 +20,10 @@ const Hero = () => {
     }, []);
 
     // Calculate the opacity and clamp it between 0 and 1
-    const computedOpacity = Math.max(0, Math.min(1, 1 - scroll / 700));
 
     return (
         <section className="min-h-dvh min-w-screen relative overflow-hidden bg-gradient-to-b from-black to-transparent">
-            <video
-                src={'/vedoi/home.mp4'}
-                loop
-                autoPlay
-                muted
-                style={{ opacity: computedOpacity }}
-                className="object-cover min-h-screen w-full"
-            />
+
 
             {/* Overlay animated text */}
             <motion.div

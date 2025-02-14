@@ -15,7 +15,7 @@ export function Header() {
     };
 
     return (
-        <header className="fixed top-0 left-0 w-full z-10 bg-gradient-to-b from-black to-transparent">
+        <header className="fixed top-0 left-0 w-full z-10  bg-[#1118]">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Site Logo/Title */}
                 <div className="text-xl font-bold text-white">Galaxy</div>
